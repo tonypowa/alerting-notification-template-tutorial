@@ -15,4 +15,3 @@ services:
       - GF_AUTH_BASIC_ENABLED=false
     volumes:
       - ./grafana/provisioning/:/etc/grafana/provisioning/datasources
-    command: bash ./send-logs-works.sh
